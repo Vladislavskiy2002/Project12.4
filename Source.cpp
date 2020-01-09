@@ -10,23 +10,23 @@ int main()
 	win.attach(fullscreen);
 	fullscreen.set_fill_color(Color::green);
 
-	Rectangle_BS r1{ Point{960 ,540} , 100 , 100 }; // Левый верхний угол, ширина , высота
+	Rectangle_BS r1{ Point{760 ,340} , 100 , 100 }; // Левый верхний угол, ширина , высота
 	win.attach(r1);
-	Rectangle_BS r2{ Point{1060 ,540} , 100 , 100 }; // Левый верхний угол, ширина , высота
+	Rectangle_BS r2{ Point{860 ,340} , 100 , 100 }; // Левый верхний угол, ширина , высота
 	win.attach(r2);
-	Rectangle_BS r3{ Point{1160 ,540} , 100 , 100 }; // Левый верхний угол, ширина , высота
+	Rectangle_BS r3{ Point{960 ,340} , 100 , 100 }; // Левый верхний угол, ширина , высота
 	win.attach(r3);
-	Rectangle_BS r4{ Point{960 ,640} , 100 , 100 }; // Левый верхний угол, ширина , высота
+	Rectangle_BS r4{ Point{760 ,440} , 100 , 100 }; // Левый верхний угол, ширина , высота
 	win.attach(r4);
-	Rectangle_BS r5{ Point{1060 ,640} , 100 , 100 }; // Левый верхний угол, ширина , высота
+	Rectangle_BS r5{ Point{860 ,440} , 100 , 100 }; // Левый верхний угол, ширина , высота
 	win.attach(r5);
-	Rectangle_BS r6{ Point{1160 ,640} , 100 , 100 }; // Левый верхний угол, ширина , высота
+	Rectangle_BS r6{ Point{960 ,440} , 100 , 100 }; // Левый верхний угол, ширина , высота
 	win.attach(r6);
-	Rectangle_BS r7{ Point{960 ,740} , 100 , 100 }; // Левый верхний угол, ширина , высота
+	Rectangle_BS r7{ Point{760 ,540} , 100 , 100 }; // Левый верхний угол, ширина , высота
 	win.attach(r7);
-	Rectangle_BS r8{ Point{1060 ,740} , 100 , 100 }; // Левый верхний угол, ширина , высота
+	Rectangle_BS r8{ Point{860 ,540} , 100 , 100 }; // Левый верхний угол, ширина , высота
 	win.attach(r8);
-	Rectangle_BS r9{ Point{1160 ,740} , 100 , 100 }; // Левый верхний угол, ширина , высота
+	Rectangle_BS r9{ Point{960 ,540} , 100 , 100 }; // Левый верхний угол, ширина , высота
 	win.attach(r9);
 
 	r1.set_fill_color(Color::dark_red);
